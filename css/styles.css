@@ -5,10 +5,13 @@
 
 #features{
     padding: 70px 280px;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {  
@@ -103,4 +106,49 @@ h2{
 .pricing-column{
     padding: 3% 2%;
     text-align: center;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+/* cta div */
+
+.cta-top{
+    background-color:#ff4c68;
+    text-align: center;
+    height: 300px;
+    padding-top: 50px;
+
+}
+
+
+
+.cta-h3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#footer {
+    height: 350px;
+    text-align: center;
+    padding-top: 150px;
+}
+.buzzfeed-p{
+    color: grey;
+}
+
+.footer-icon{
+    margin-bottom: 20px;
+}
+.icons {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
 }
